@@ -1,0 +1,1235 @@
+.html {
+  height: 100%;
+  width: 100%;
+
+}
+
+.s-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; /* Ensure the title takes up the full viewport
+  height */
+  /* position:absolute; */
+  margin-top: 15%;
+  margin-bottom: 1%;
+  color: white;
+  font-family: 'Roboto';
+  /* Ensure the font is applied */
+  font-size: 50px;
+
+}
+
+
+body {
+  background-image: linear-gradient(to right, #05050f, #302fb9);
+}
+
+.line {
+  margin-top: -80px;
+  width: 400px
+}
+
+.play-Button {
+  border-color: #F23CA6;
+  background-color: #F23CA6;
+  color: white;
+  margin-top: 10%;
+  width: 110px;
+  height: 40px;
+  font-size: 24px
+}
+
+.playButton {
+  display: flex;
+  justify-content: center;
+}
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+
+
+.play-Button:hover {
+  background-color: #E81E63;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+/* This part is in charge of the nav bar at the top of the page */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.nav {
+  list-style-type: none;
+  margin-top: 20;
+  margin-right: 20;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-logo {
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+
+.nav li {
+  float: left;
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 18px;
+  background-color: #5E57FF;
+  border-radius: 8px;
+  margin: 8px;
+   font-family: 'Roboto';
+  font-size:20px;
+}
+
+.nav a:hover {
+  background-color: #4540e6;
+  font-weight: bold;
+  curor:pointer;
+}
+
+.nav-logo .title {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-logo .title:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.controller{
+  position:absolute;
+  bottom:50px;
+  right:130px;
+  
+}
+
+.controller:hover{
+
+    animation: shake 0.5s;
+
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+.control{ 
+  object-fit:cover;
+  height:240px;
+  width:240px;}
+
+
+
+/* games sidebar */
+
+.sidebar{
+  width:200px;
+  padding: 40px;
+  color:white;
+  /* background-color: white; */
+}
+
+.side-title{
+  font-size:18px;
+}
+
+.gameTypes{
+  list-style-type:none;
+  margin-left:10;
+}
+
+.container a{
+  color:white;
+}
+
+.container{
+  margin-top: 15%;
+  display: flex;
+  /* background-color: green; */
+  
+}
+
+/* Games Pictures */
+
+.gamesPics img{
+  width: 350px;
+  height: 350px;
+  display:flex;
+  align-items: space-between;
+  flex-wrap: wrap;
+}
+
+.JJ{
+height: 350px;
+width: 350px;
+}
+
+/* .gamesPics{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  align-content: space-between;
+  width: 1200px;
+  height: 3200px;
+  object-fit:cover;
+} */
+
+.gamesPicsAction{
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 1200px;
+  height: 1150px;
+  position: relative;
+  object-fit:cover;
+  margin-left: 3%;
+}
+
+.gamesPicPuzzle{
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 1200px;
+  height: 750px;
+  position: relative;
+  object-fit:cover;
+  margin-left: 3%;
+}
+
+.gamesPicHorror {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 1200px;
+  height: 500px;
+  position: relative;
+  object-fit:cover;
+  margin-left: 3%;
+}
+
+.gamesPicSim{
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 1200px;
+  height: 1150px;
+  position: relative;
+  object-fit:cover;
+  margin-left: 3%;
+}
+
+.gamesPicsSurv{
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 1200px;
+  height: 1150px;
+  position: relative;
+  object-fit:cover;
+  margin-left: 3%;
+}
+
+
+
+
+/* Game description */
+.gamesPics {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 1200px;
+  height: 3200px;
+  position: relative;
+  object-fit:cover;
+  margin-left: 3%;
+}
+
+.game {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.game img {
+  width: 100%;
+  height: 100%;
+  /* display: block; */
+}
+
+.description{
+  position: absolute;
+  bottom:0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(4, 29, 78,0.8);
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+  box-sizing: border-box;
+  opacity: 0;
+  font-family: 'Roboto';
+  font-size:22px;
+  
+  
+}
+
+.game:hover .description {
+  opacity: 1;
+}
+
+
+
+
+/* pacman */
+.pac-man {
+  position: absolute;
+  top: 140px;
+  left: 190px;
+  width: 0;
+  height: 0;
+  border-top: 75px solid #F23CA6;
+  border-left: 75px solid #F23CA6;
+  border-bottom: 75px solid #F23CA6;
+  border-right: 75px solid transparent;
+  border-radius: 50%; 
+ } 
+
+/* pacman animation */
+/* pacman Animation move*/
+@keyframes pacman{
+  0%{
+    transform:translate(800px, 0px);
+  } 
+  100%{
+
+  }
+}
+
+
+.pac-man{
+  animation:pacman 6.83s linear reverse infinite
+  } 
+
+/* .pacman{
+  margin:40px 10px;
+}
+ */
+/* .pacman-top{
+  position:absolute;
+  top: 140px;
+  left: 190px;
+  background-color:#F23CA6;
+  height:76px;
+  width:150px;
+  border-radius:100px 100px 0 0;
+  animation: spin1 1s infinite linear;
+}
+
+.pacman-bottom{
+background-color:#F23CA6;
+  position:absolute;
+  top: 210px;
+  left: 190px;
+  height:76px;
+  width:150px;
+  border-radius:0 0 100px 100px;
+  animation: spin2 1s infinite linear;
+} */
+
+
+
+/* pacman animation eating */
+
+/* @keyframes spin1 {
+  0%  {transform: rotate(0deg);}
+  50%{transform: rotate(-35deg);}
+
+}
+@keyframes spin2 {
+  0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}	
+}
+
+@-moz-keyframes spin1 {
+  0%  {transform: rotate(0deg);}
+  50%{transform: rotate(-35deg);}
+
+}
+@-moz-keyframes spin2 {
+  0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}	
+}
+
+@-webkit-keyframes spin1 {
+  0%  {transform: rotate(0deg);}
+  50%{transform: rotate(-35deg);}
+
+}
+@-webkit-keyframes spin2 {
+  0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}	
+}
+
+
+.pacman-bottom{
+  animation:pacman 7s linear reverse infinite
+  } 
+
+.pacman-top{
+  animation:pacman 7s linear reverse infinite
+  } 
+
+ */
+
+/*Dots  */
+.dot {
+  height: 40px;
+  width: 40px;
+  background-color: #02FEE4;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.one {
+  position: absolute;
+  top: 180px;
+  left: 480px;
+}
+
+.two {
+  position: absolute;
+  top: 180px;
+  left: 740px;
+}
+
+.three {
+  position: absolute;
+  top: 180px;
+  left: 1000px;
+
+}
+
+
+/* dot animation */
+@keyframes up{
+  0%{
+    transform:translateY(25px);
+  }
+  100%{
+    transform:translateY(12.5px);
+  }
+}
+
+.dot:nth-child(odd){
+  animation:up 1.5s linear alternate-reverse infinite
+  }
+
+@keyframes down{
+  0%{
+    transform:translateY(12.5px);
+  }
+  100%{
+    transform:translateY(25px);
+  }
+}
+
+.dot:nth-child(even){
+  animation:down 1.5s linear alternate-reverse infinite
+  }
+
+/* rectangle */
+
+.Purplerectangle {
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+
+}
+
+.Orangerectangle {
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+
+  .smallRectangle {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+  }
+
+}
+
+.first {
+  position: absolute;
+  top: 10px;
+  right: 170px;
+  rotate: 90deg;
+  background-color: #FF9535
+}
+
+.second {
+  position: absolute;
+  bottom: 50px;
+  left: 170px;
+  rotate: 90deg;
+  background-color: #FF9535
+}
+
+.third {
+  position: absolute;
+  bottom: 0px;
+  left: 80px;
+  background-color: #5E57FF;
+  height: 300px;
+  width: 100px
+}
+
+.fourth {
+  position: absolute;
+  top: 0px;
+  right: 80px;
+  background-color: #5E57FF;
+  height: 300px;
+  width: 100px
+}
+
+.fifth {
+  position: absolute;
+  bottom: 0px;
+  left: 290px;
+  background-color: white;
+  color: white;
+  width: 20px;
+  height: 130px;
+}
+
+.sixth {
+  position: absolute;
+  bottom: 0px;
+  left: 150px;
+  background-color: white;
+  color: white;
+  width: 20px;
+  height: 40px;
+}
+
+.seventh {
+  position: absolute;
+  bottom: 60px;
+  left: 150px;
+  background-color: white;
+  color: white;
+  width: 20px;
+  height: 200px;
+}
+
+.eighth {
+  position: absolute;
+  top: 60px;
+  right: 150px;
+  background-color: white;
+  color: white;
+  width: 20px;
+  height: 200px;
+}
+
+.ninth {
+  position: absolute;
+  top: 0px;
+  right: 150px;
+  background-color: white;
+  color: white;
+  width: 20px;
+  height: 40px;
+}
+
+.tenth {
+  position: absolute;
+  top: 0px;
+  right: 290px;
+  background-color: white;
+  color: white;
+  width: 20px;
+  height: 130px;
+}
+
+/* rectangle animation */
+@keyframes big{
+  0%{
+    transform:scale(1,1.5);
+  } 
+}
+
+.Purplerectangle{
+  animation:big 1.5s linear alternate-reverse infinite
+  }
+
+
+@keyframes bigPurple{
+  0%{
+    transform:scale(1,1.5);
+  } 
+}
+ .smallRectanglePurpleLong{
+  animation:bigPurple 1.5s linear alternate-reverse infinite
+  } 
+
+
+@keyframes smallPurple{
+  0%{
+    transform:translate(0%, 100%);
+  } 
+}
+.smallRectanglePurple:nth-child(even){
+  animation:smallPurple 1.5s linear alternate-reverse infinite
+  } 
+
+@keyframes smallPurpleTop{
+  0%{
+    transform:translate(0%, -100%);
+  } 
+}
+.smallRectanglePurple:nth-child(odd){
+  animation:smallPurpleTop 1.5s linear alternate-reverse infinite
+  } 
+
+
+
+
+@keyframes small{
+  100%{
+    transform:scale(1.5,1);
+  } 
+}
+
+.Orangerectangle{
+  animation:small 1.5s linear alternate-reverse infinite
+  }
+
+
+@keyframes smallOrange{
+  100%{
+    transform:scale(1,1.5);
+  } 
+}
+
+.smallRectangleOrange{
+  animation:smallOrange 1.5s linear alternate-reverse infinite
+  }
+
+/* The title for the pages */
+
+.titlePages{
+  position:absolute;
+  top:40px;
+  left:500px;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 50px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.shadow{
+  text-shadow: 2px 2px 2px black;
+}
+.titlePageGame{
+  position:absolute;
+  top:40px;
+  left:550px;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 50px;
+  text-shadow: 2px 2px 2px black;
+  /* background-color: green; */
+}
+
+/*  controller button*/
+.controllerButton {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.Button{
+  background-color:#F23CA6;
+  color:white;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 20px;
+  position: absolute;
+  top: 610px;
+  right: 160px;
+  font-family: 'Roboto';
+}
+
+.Button:hover{
+  background-color: #E81E63;;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.logo{
+  position:absolute;
+  top:25px;
+  left:10px;
+  width:45px;
+  height:45px;
+  object-fit:cover;  
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  width:280px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover  {
+  background-color: #252541;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.dropdown {
+  position: absolute;
+  top:280px;
+  display: inline-block;
+  justify-content: center;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: clear;
+  min-width: 280px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 16px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #252541;
+font-weight: bold;
+cursor:pointer;
+}
+
+.show {display:block;}
+
+
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+
+}
+
+
+.ups{
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.downs{
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+
+.game {
+  overflow: hidden;
+}
+
+.show {
+  display: block;
+}
+
+p{
+  display:inline;
+}
+
+/* Resources info */
+
+.info{
+  font-family: bubbly;
+  color:white;
+ text-align:center;
+  font-weight: bold;
+  font-size: 30px ;
+  position: absolute;
+  top: 685px;
+  left: 0px;
+  padding: 20px;
+  width:1400px;
+}
+
+
+.firstResource{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height:700px;;
+  width:1440px;
+  object-fit: cover;
+  z-index: -10;
+}
+
+.secondResource{
+  position:absolute;
+  top:810px;
+  right: 560px;
+}
+.thirdResource{
+  position: absolute;
+  top: 985px;
+  right:500px;
+  font-family: bubbly;
+    color:white;
+   text-align:center;
+    font-weight: bold;
+    font-size: 30px ;
+  width: 385px;
+}
+
+.fourthResource{
+  position: absolute;
+  top: 1295px;
+  right:240px;
+  font-family: bubbly;
+    color:white;
+   text-align:center;
+    font-weight: bold;
+    font-size: 40px ;
+  width: 900px;
+}
+
+.fifthsource{
+  position:absolute;
+  top:2240px;
+  left: 790px;
+  object-fit: cover;
+  height:650px;
+  width:600px;
+  border-top-right-radius: 1000px;
+  border-top-left-radius: 1000px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
+
+.Youtube{
+  position:absolute;
+  top:2750px;
+  left:300px;
+  height:100px;
+  width:150px;
+  object-fit:cover;
+  z-index:10; 
+  text-align:center;
+}
+
+.sixthsource{
+  position:absolute;
+  top:2400px;
+  left: 150px;
+  color: white;
+  font-family: roboto;
+  font-size: 20px;
+  width:500px;
+  text-align:center;
+  letter-spacing: .75px;
+   line-height: 1.25;
+}
+.twoheader{
+  position: absolute;
+  top: 1435px;
+  right:240px;
+  font-family: bubbly;
+    color:#11053b;
+   text-align:center;
+    font-weight: bold;
+    font-size: 40px ;
+  width: 900px;
+}
+
+.twoheaders{
+  color:white;
+  position: absolute;
+  top: 1435px;
+  right:0px;
+  width: 1439px;
+  height:650px;
+  background-color: white;
+}
+.twohead{
+  position: absolute;
+  top: 1380px;
+  right:-540px;
+  width: 1439px;
+  height:800px;
+  background-color: white;
+}
+
+.sourceone{
+  position:absolute;
+  top:50px;
+  right:0px;
+  height:350px;
+  width:340px;
+}
+
+.sourcetwo{
+  position:absolute;
+  top:50;
+  right:450px;
+  height:350px;
+  width:340px
+  box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.2);;
+}
+.sourcethree{
+  position:absolute;
+  top:50px;
+  right:-450px;
+  height:350px;
+  width:340px;
+}
+
+.discordone{
+  position:absolute;
+  top:1440px;
+  right:-500px;
+  color: #11053b;
+  font-family: roboto;
+  font-size: 40px;
+  width:600px;
+  text-align:center;
+  font-style: bold;
+ 
+}
+
+.oculus{
+  position:absolute;
+  top:20px;
+  right: 660px;
+  object-fit: cover;
+  height:570px;
+  width:600px;
+  border-radius:30px;
+}
+
+.discord{
+  position:absolute;
+  top:1580px;
+  left:860px;
+  object-fit: cover;
+  height:400px;
+  width:500px;
+  border-radius:30px;
+}
+.BedGirl{
+  position:absolute;
+  top:2155px;
+  left:0px;
+  object-fit: cover;
+  height:800px;
+  width:1450px;
+}
+
+.Playlist{
+  position:absolute;
+  top:2250px;
+  left:0px;
+  text-shadow: 3px 3px 3px black;
+}
+
+.STEM{
+  position:absolute;
+  top:3000px;
+  left:430px;
+  width:600px;
+  font-family: bubbly;
+  text-align:center;
+}
+
+.Craft{
+position: absolute;
+top:3050px;
+left:670px;
+height:250px;
+width:400px
+  font-family:bubbly;
+  text-align:center;
+}
+
+.endy{
+  position: absolute;
+  top: 3380px;
+  right:-540px;
+  width: 1439px;
+  height:200px;
+  background-color: clear;
+}
+/* 
+.bigPicture{
+object-fit: cover;
+ position: absolute;
+  top: 2380px;
+  right:-600px;
+  width: 1440px;
+  height:650px;
+} */
+.links{
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 700px;
+  height:270px;
+  /* background-color: green; */
+}
+
+.links-container{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: green; */
+}
+
+.Image-container{
+  position:absolute;
+  bottom:180px;
+  left:400px;
+  
+  width:300px;
+  height:300px;
+  border-radius:20px;
+  border:2px solid darkblue;
+  margin-right: 25%;
+}
+
+.Image-box{
+  height:700px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  /* background-color: green; */
+}
+
+.Info-container{
+  display:flex;
+  /* background-color: pink; */
+  flex-direction: column;
+  position:absolute;
+  bottom:100px;
+  right:300px;
+  width:400px;
+  height:400px;
+  color:white;
+  text-align: center;
+  align-items:center;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+
+.Information{
+  color:white;
+  
+  /* border:2px solid #F23CA6; */
+  width:400px;
+  height:300px;
+  display: flex;
+  text-align: center;
+  align-items:flex-start;
+  font-size: 20px;
+  font-family: 'Roboto';
+  /* background-color:green; */
+}
+
+.titleNames{
+  width:400px;
+  height:100px;
+  display:flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* background-color: pink; */
+}
+
+.ArticleOnWomenInEsports{
+  height:350px;
+  width:350px;
+  border-radius: 10px;
+}
+
+.TheAthletic{
+  height:350px;
+  width:350px;
+  border-radius: 10px;
+}
+
+.Articles{
+  position:absolute;
+  bottom:-1600px;
+  height:800px;
+  width:900px;
+  border-radius: 10px;
+  border-color: white;
+  /* margin-left: 20px; */
+  color:white;
+  font-family: 'Roboto';
+  text-align:center;
+ 
+}
+
+
+.Discord{
+  position:absolute;
+  bottom:-1700px;
+  right:100px;
+  color:white;
+  text-align:center;
+  font-family: 'Roboto';
+}
+
+.GetIntoGame{
+  color:white;
+  position:absolute;
+  bottom:-2200px;
+  left:100px;
+  text-align:center;
+   font-family: 'Roboto';
+
+}
+
+.PlayList{
+  color:white;
+  position:absolute;
+  bottom:-2400px;
+  right:100px;
+  text-align:center;
+   font-family: 'Roboto';
+}
+
+.Spotify{
+  width:300px
+  height:300px;
+}
+
+.AppStore{
+  position:absolute;
+  bottom:15px;
+  right:50px;
+  color:white;
+  text-align:center;
+  font-family: 'Roboto';
+}
+
+.Store{
+  background-color:#F23CA6;
+  color:white;
+  padding:10px;
+  font-family: 'Roboto';
+  font-size:15px;
+  border-radius:10px;
+  border-color:black;
+  border:2px solid black;
+  text-decoration:none;
+  text-align:center;
+  
+}
+
+.Store:hover{
+  background-color: #E81E63;;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.fade-in{
+  opacity:0;
+  transition: opacity 1s ease-in;
+}
+
+.fade-in.appear{
+  opacity:1;
+  
+}
+
+.Artyy{
+ position:absolute;
+  top:3150px;
+  left:470px;
+  height:400px;
+  width:500px;
+  border-radius:10px;
+ 
+}
+/* 
+.DiscordFive{
+ 
+
+} */
+
+.Opp{
+z-index:10;  
+}
+
